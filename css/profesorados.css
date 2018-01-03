@@ -1,0 +1,52 @@
+.parrafos{
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.titulos{
+	margin: 50px;
+}
+
+.subtitulos{
+	text-align: center;
+	font-size: 0.8em;
+}
+
+table{
+	margin: 10px;
+}
+
+.tablas{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #000;
+	background-color: #FFF;
+	color: #000;
+}
+.tablas:hover{
+	background-color: #7c7c7c;
+}
+
+th{
+	background-color: #5B7AAF !important;
+	color: #FFF !important;
+}
+
+.abajotabla{
+	background-color: #FFF;
+	text-align: left;
+	padding: 10px;
+	border: none;
+	color: #000;
+}
+
+@media only screen and (max-width: 768px){
+	.titulos{
+		margin: 10px !important;
+	}	
+
+	.tablas{
+		text-align: left;
+	}
+}

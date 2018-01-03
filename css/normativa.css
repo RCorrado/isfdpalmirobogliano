@@ -1,0 +1,54 @@
+.anchonormativa{
+	width: 90% !important;
+	margin: auto;
+}
+
+hr{
+	clear: both;
+	width: 20%;
+	height: 1px;
+	margin: 10px auto 5px auto;
+}
+
+.colorIconos{
+	color: #FFF;
+	text-align: center;
+	transition: color 1.3s ease;
+	-webkit-transition: color 1.3s ease;
+	-moz-transition: color 1.3s ease;
+	-o-transition: color 1.3s ease;
+}
+.colorIconos:hover{
+	color: #909090;
+	
+}
+
+.colorParrafos{
+	color: #FFF;
+	text-align: center;
+}
+
+.linkNormativa{
+	display: inline !important;
+}
+
+.margenparahr{
+	margin-bottom: 20px;
+	clear: both;
+	float: none;
+}
+
+.centrar{
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 768px){
+	[class*="col-"] {
+        width: 100%;
+    }
+    .anchonormativa{
+    	width: 100% !important;
+    }
+
+}

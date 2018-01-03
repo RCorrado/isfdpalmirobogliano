@@ -1,0 +1,317 @@
+
+
+
+/* ==========================================================================
+   Author's custo
+   m styles
+   ========================================================================== */
+@font-face{
+	font-family: watermelon;
+	src: url(..//fonts/Watermelon-Script/watermelon-script-demo.regular.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: titleletter;
+	src: url(..//fonts/Ubuntu/Ubuntu-Bold.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: parrafoletter;
+	src: url(..//fonts/PT_Sans/PT_Sans-Web-Regular.ttf) format("truetype");
+}
+
+html{
+	min-height: 100%;
+	position: relative;
+}
+
+body{
+	background-color: #7798D0;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+.colorBarra{
+	background-color: #171717 !important;
+}
+
+.imgSlider{
+	margin: auto;
+	width: 100%;
+	height: 800px !important;
+	padding-top: 15px;
+}
+
+.titImgSlider{
+	font-size: 7em;
+	color: #FFFFFF;
+	font-family: watermelon !important;
+	position: relative;
+	padding-bottom: 30%;
+	text-shadow: 3px 3px 5px #000;
+}
+
+.NavMenu{
+	font-family: parrafoletter !important;
+	font-size: 1.3em;
+	margin-bottom: 2px;
+}
+.NavMenu:hover{
+	border-bottom: 2px solid white;
+	margin-bottom: 0px;
+}
+
+.NavMenuDesplegable{
+	font-family: parrafoletter !important;
+	font-size: 1.2em;
+	color: #FFF;
+	display: inline-block;
+	padding: 10px;
+	display: block;
+	padding: 10px 15px;
+}
+
+.NavLi{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.title{
+	font-family: titleletter !important;
+	font-size: 2em;
+}
+
+.titulo{
+	padding-left: 20px;
+}
+
+.parrafosProfesorados{
+	width: 80%;
+	text-align: center;
+	margin: 50px auto;
+}
+
+.parrafosDescProfe{
+	width: 50%;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.titProfesorados{
+	text-align: center;
+}
+
+.cuerpo{
+	font-family: parrafoletter;
+	background-color: #5B7AAF;
+	padding: 60px;
+	color: #FFF;
+}
+
+.cuerpoancho{
+	width: 80%;
+	margin: 100px auto;
+}
+
+.titcuerpo{
+	padding: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.parrafoscuerpo{
+	padding: 5px;
+	text-align: justify;
+}
+
+#preinscripcion{
+	text-align: center !important;
+	margin: 30px auto;
+}
+
+#linkpreinscripcion{
+	font-size: 3em;
+	color: #FFF;
+	transition: color 0.8s ease;
+	-webkit-transition: color 0.8s ease;
+	-moz-transition: color 0.8s ease;
+	-o-transition: color 0.8s ease;
+}
+#linkpreinscripcion:hover{
+	color: #A0A0A0;
+}
+
+footer{
+	background-color: #080808;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.alignFoot{
+	text-align: center;
+	color: #FFF;
+}
+
+#espacioFoot{
+	padding: 10px;
+}
+
+.colorRedes{
+	color:#FFF;
+	transition: color 1s ease;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-o-transition: color 1s ease;
+}
+
+.colorRedes:hover{
+	color: #160BFA;
+}
+
+.linkRedes{
+	display: inline;
+}
+
+.linksProfe{
+	color: #FFF;
+	transition: color 1s ease;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-o-transition: color 1s ease;
+}
+.linksProfe:hover{
+	color: #909090;
+}
+
+
+/*Celulares*/
+
+@media only screen and (max-width: 768px){
+	[class*="col-"] {
+        width: 100%;
+    }
+
+    .imgSlider{
+    	margin: auto;
+		width: 100% !important;
+		height: 270px !important;
+		padding-top: 50px;
+	}
+
+	.titImgSlider{
+		font-size: 2em;
+		width: 90%;
+		color: #FFFFFF;
+		font-family: watermelon !important;
+		position: relative;
+		padding-bottom: 20%;
+		padding-left: 5%;
+		text-shadow: 3px 3px 5px #000;
+	}
+
+	.NavMenuDesplegable{
+		padding: 0px 10px 0px 10px !important;
+	}
+
+	.titulo{
+		padding-left: 10px;
+		font-size: 0.7em;
+	}
+
+	.cuerpo{
+		padding: 5px;
+	}
+
+	.titcuerpo{
+	padding: 5px;
+	font-size: 1.8em;
+	text-align: center;
+	}
+
+    .cuerpoancho{
+    	width: 90%;
+    }
+
+	#linkpreinscripcion{
+	font-size: 1em;
+	color: #FFF;
+	}
+
+	footer{
+	background-color: #080808;
+	position: absolute;
+	bottom: -10%;
+	width: 100%;
+	}
+
+}
+
+
+
+/*Tablets*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	[class*="col-"] {
+        width: 100%;
+    }
+
+    .imgSlider{
+    	margin: auto;
+		width: 100% !important;
+		height: 500px !important;
+		padding-top: 50px;
+	}
+
+	.titImgSlider{
+		font-size: 4em;
+		width: 90%;
+		color: #FFFFFF;
+		font-family: watermelon !important;
+		position: relative;
+		padding-bottom: 20%;
+		padding-left: 5%;
+		text-shadow: 3px 3px 5px #000;
+	}
+
+	.titulo{
+	padding-left: 10px;
+	font-size: 0.7em;
+	}
+
+	.cuerpo{
+		padding: 5px;
+	}
+
+	.titcuerpo{
+	padding: 5px;
+	font-size: 1.8em;
+	text-align: center;
+	}
+
+	#linkpreinscripcion{
+	font-size: 1em;
+	color: #FFF;
+	}
+
+	footer{
+	background-color: #080808;
+	position: absolute;
+	bottom: -10%;
+	width: 100%;
+	}
+}
+
+
+
+
+
+
+
